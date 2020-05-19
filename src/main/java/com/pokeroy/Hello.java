@@ -5,6 +5,9 @@ public class Hello {
 //        System.out.println("Hello World!");
 
         Person person = new Person();
-        person.sayHello();
+        for(int i=0;i<10;i++){
+            person.sayHello();
+        }
+
     }
 }
